@@ -1,0 +1,28 @@
+[project]
+name = "snail"
+version = "0.1.0"
+description = "SNAIL: a slow but auditable multi-agent blackboard system."
+readme = "README.md"
+authors = [
+    { name = "rubengarcianieto", email = "rubengarcianietoempresa@gmail.com" }
+]
+requires-python = ">=3.14"
+dependencies = [
+    "pydantic>=2.14.4",
+]
+
+[project.scripts]
+snail = "snail:main"
+
+[build-system]
+requires = ["uv_build>=0.12.19,<0.13.0"]
+build-backend = "uv_build"
+
+[dependency-groups]
+dev = [
+    "pytest>=9.2.0",
+    "ruff>=0.17.6",
+]
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "N"]
