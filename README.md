@@ -16,6 +16,7 @@ Early stage. Implemented so far:
 - The first version of the blackboard entry schema, with tests.
 
 The rest of the design is planned.
+
 ## Setup
 
 Requires Python 3.14 and [uv](https://docs.astral.sh/uv/).
@@ -39,7 +40,6 @@ Requires Python 3.14 and [uv](https://docs.astral.sh/uv/).
 - [Design intent](docs/DESIGN_INTENT.md): what the project aims to do and why.
 - [References](docs/REFERENCES.md): sources. The EU AI Act is used as design
   inspiration only, not as a legal obligation.
-- [Benchmark](docs/BENCHMARK.md): a small experiment comparing async and sync HTTP requests.
 - [Agents mapping](docs/AGENTS_MAPPING.md): early reflection on agent roles and workflow.
 
 ## Related repositories
